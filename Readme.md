@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Игорь Хан](https://up.htmlacademy.ru/htmlcss/25/user/1000063).
-* Наставник: `Неизвестно`.
+* Наставник: [Никита Рогатнев](https://htmlacademy.ru/profile/nikita_rogatnev).
 
 ---
 
