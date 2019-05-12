@@ -22,16 +22,11 @@
     </header>
 
     <main class="container">
-      <h1 class="visually-hidden">Седона</h1>
       <section class="main-intro">
-        <section class="main-intro-background"><!--фоновое фото-->
-        </section>
-        <section class="main-intro-welcome"><!--welcome to the gorgeous sedona because the Grand Canyon sacks-->
-        </section>
       </section>
 
       <section class="features">
-        <section>
+        <section class="features-sedona">
           <div class="features-slogan">
             <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
             <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
@@ -40,7 +35,7 @@
 
         <section class="features-advantage">
           <h2 class="features-advantage-white">Настоящий городок</h2>
-          <p class="features-advantage-white"><span>— №1 —</span></p>
+          <span class="features-advantage-white">— №1 —</span>
           <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
           <img src="img/city1.jpg" width="800" height="256" alt="Настоящий городок">
         </section>
@@ -60,10 +55,11 @@
               <p>Не только китайского, но и местного производства!</p>
             </li>
           </ul>
+        </section>
 
           <section class="features-advantage">
             <h2 class="features-advantage-white">Там есть Мост дьявола</h2>
-            <p class="features-advantage-white"><span>— №2 —</span></p>
+            <span="features-advantage-white">— №2 —</span>
             <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
             <img src="img/city2.jpg" width="800" height="256" alt="Мост дьявола">
           </section>
@@ -71,24 +67,24 @@
           <section class="features-leisure">
             <ul class="features-leisure-list">
               <li class="features-leisure-item">
-                <h2>Небольшая<br>площадь</h2>
-                <p><span>— №3 —</span></p>
+                <h2>Небольшая площадь</h2>
+                <span>— №3 —</span>
                 <p>Все достопримечательности находятся очень близко</p>
               </li>
               <li class="features-leisure-item">
-                <h2>Красивая<br>дорога</h2>
-                <p><span>— №4 —</span></p>
+                <h2>Красивая дорога</h2>
+                <span>— №4 —</span>
                 <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
               </li>
               <li class="features-leisure-item">
-                <h2>Мало<br>туристов</h2>
-                <p><span>— №5 —</span></p>
+                <h2>Мало туристов</h2>
+                <span>— №5 —</span>
                 <p>Большинство едет в гранд каньон и толпится там</p>
               </li>
             </ul>
           </section>
         </section>
-      </section>
+
 
       <div class="features-slogan">
         <h2>Заинтересовались?</h2>
@@ -97,18 +93,19 @@
 
       <section class="search-hotel">
         <h2 class="features-advantage-white">Поиск гостиницы в седоне</h2>
-        <form class="search-data" action="index.html" method="post">Дата заезда:
-          <input id="date-in" type="text" name="" value="">
-        </form>
-        <form class="search-data" action="index.html" method="post">Дата выезда:
+        <form class="search-data" action="index.html" method="post">
+          <label class="search-data">Дата заезда:
+            <input id="date-in" type="text" name="" value="">
+          </label>
+        <label class="search-data">Дата выезда:
           <input id="date-out" type="text" name="" value="">
-        </form>
-        <form class="search-data" action="index.html" method="post">Взрослые:
+        </label>
+        <label class="search-data">Взрослые:
           <input id="mature" type="text" name="" value="">
-        </form>
-        <form class="search-data" action="index.html" method="post">Дети:
+        </label>
+        <label class="search-data">Дети:
           <input id="child" type="text" name="" value="">
-        </form>
+        </label>
         <button class="button-search" type="button" name="search">Найти</button>
       </section>
     </main>
@@ -122,15 +119,13 @@
         <li><a class="social-button" href="#">Фейсбук</a></li>
         <li><a href="social-button">youtube</a></li>
       </ul>
+
       <div class="footer-copyright">
         <a href="https://htmlacademy.ru">
           <p class="footer-by">Website by</p>
           <img src="img/htmlacademy.svg" width="115" height="41" alt="Логотип htmlacademy">
         </a>
       </div>
-
     </footer>
-    <!--<p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>-->
-
   </body>
 </html>

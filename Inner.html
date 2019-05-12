@@ -7,7 +7,7 @@
   <body>
 
     <header class="main-header">
-      <a class="logo-navigation">
+      <a class="logo-navigation" href="index.html">
         <img src="img/logo.png" width="140" height="71" alt="логотип">
       </a>
 
@@ -27,28 +27,30 @@
 
       <section class="search">
         <form class="search-conditions" action="index.html" method="post">
-          <h3 class="features-advantage-white">Инфраструктура:</h3>
-          <p class="search-request-choice"> <input type="checkbox" name="structure" value="pool">Бассейн</p>
-          <p class="search-request-choice"> <input type="checkbox" name="structure" value="park">Парковка</p>
-          <p class="search-request-choice"> <input type="checkbox" name="structure" value="wi-fi">Wi-Fi</p>
-        </form>
+          <div class="search-result">
+            <h3 class="features-advantage-white">Инфраструктура:</h3>
+            <p class="search-request-choice"> <input type="checkbox" name="structure" value="pool">Бассейн</p>
+            <p class="search-request-choice"> <input type="checkbox" name="structure" value="park">Парковка</p>
+            <p class="search-request-choice"> <input type="checkbox" name="structure" value="wi-fi">Wi-Fi</p>
+          </div>
 
-        <form class="search-conditions" action="index.html" method="post">
-          <h3 class="features-advantage-white">Тип жилья:</h3>
-          <p class="search-request-choice"> <input type="checkbox" name="structure" value="hotel">Гостиница</p>
-          <p class="search-request-choice"> <input type="checkbox" name="structure" value="motel">Мотель</p>
-          <p class="search-request-choice"> <input type="checkbox" name="structure" value="appartment">Апартаменты</p>
-        </form>
+          <div class="search-result">
+            <h3 class="features-advantage-white">Тип жилья:</h3>
+            <p class="search-request-choice"> <input type="checkbox" name="structure" value="hotel">Гостиница</p>
+            <p class="search-request-choice"> <input type="checkbox" name="structure" value="motel">Мотель</p>
+            <p class="search-request-choice"> <input type="checkbox" name="structure" value="appartment">Апартаменты</p>
+          </div>
 
         <div class="search-price">
           <h3 class="features-advantage-white">Стоимость в сутки (Р):</h3>
           <p class="features-advantage-white">от 0 до 3000</p>
           <button type="button" type="submit" name="button">Показать</button>
         </div>
+      </form>
       </section>
 
       <section class="search-sort">
-        <b class="search-find">НАЙДЕНО: 3</b>
+        <h3 class="search-find">НАЙДЕНО: 3</h3>
           <p>Сортировка:</p>
           <div class="search-filter">
             <ul class="search-select">
@@ -56,58 +58,51 @@
               <li class="search-select-type"><a class="select-order" href="#">По типу</a></li>
               <li class="search-select-type"> <a class="select-order" href="#">По рейтингу</a></li>
           </ul>
-          <a href="#"><img src="img/icon-down-dir" width="10" height="11" alt="По убыванию"></a>
-          <a href="#"><img src="img/icon-up-dir" width="10" height="11" alt="По возрастанию"></a>
-          </div>
+          <ul class="searh-range">
+            <a href="#"><img src="img/icon-down-dir" width="10" height="11" alt="По убыванию"></a>
+            <a href="#"><img src="img/icon-up-dir" width="10" height="11" alt="По возрастанию"></a>
+          </ul>
+        </div>
       </section>
 
       <section class="find-result">
         <article class="hotel">
           <img src="img/amara.jpg" width="135" height="90" alt="Гостиница Amara Resort & Spa">
           <h1 class="search-find"><a href="#">Amara Resort & Spa</a></h1>
-          <ul class="hotel-price">
-            <li class="hotel-price-preview"><span>Гостиница</span></li>
-            <li class="hotel-price-preview"><span>От 4000 Р.</span></li>
-          </ul>
-          <ul class="button">
-            <li class="button-detail">
-              <a class="button-result" href="#">Подробнее</a>
-            </li>
-            <li class="button"> <a class="button-result" href="#">Забронировать</a>
-            </li>
-          </ul>
+          <div class="hotel-price">
+            <span class="hotel-price-preview">Гостиница</span>
+            <span class="hotel-price-preview">От 4000 Р.</span>
+          </div>
+          <div class="button">
+            <a class="button-detail" href="#">Подробнее</a>
+            <a class="button-reserve" href="#">Забронировать</a>
+          </div>
         </article>
 
         <article class="hotel">
           <img src="img/desert-quail.jpg" width="135" height="90" alt="Мотель Desert Quail Inn">
           <h1 class="search-find"><a href="#">Desert Quail Inn</a></h1>
-          <ul class="hotel-price">
-            <li class="hotel-price-preview"><span>Мотель</span></li>
-            <li class="hotel-price-preview"><span>От 3000 Р.</span></li>
-          </ul>
-          <ul class="button">
-            <li class="button-detail">
-              <a class="button-result" href="#">Подробнее</a>
-            </li>
-            <li class="button"> <a class="button-result" href="#">Забронировать</a>
-            </li>
-          </ul>
+          <div class="hotel-price">
+            <span class="hotel-price-preview">Мотель</span></li>
+            <span class="hotel-price-preview">От 3000 Р.</span></li>
+          </div>
+          <div class="button">
+            <a class="button-detail" href="#">Подробнее</a>
+            <a class="button-reserve" href="#">Забронировать</a>
+          </div>
         </article>
 
         <article class="hotel">
           <img src="img/villas-poco.jpg" width="135" height="90" alt="Villas at Poco Diablo">
           <h1 class="search-find"><a href="#">Villas at Poco Diablo</a></h1>
-          <ul class="hotel-price">
-            <li class="hotel-price-preview"><span>Апартаменты</span></li>
-            <li class="hotel-price-preview"><span>От 2000 Р.</span></li>
-          </ul>
-          <ul class="button">
-            <li class="button-detail">
-              <a class="button-result" href="#">Подробнее</a>
-            </li>
-            <li class="button"> <a class="button-result" href="#">Забронировать</a>
-            </li>
-          </ul>
+          <div class="hotel-price">
+            <span class="hotel-price-preview">Апартаменты</span>
+            <span class="hotel-price-preview">От 2000 Р.</span>
+          </div>
+          <div class="button">
+            <a class="button-detail" href="#">Подробнее</a>
+            <a class="button-reserve" href="#">Забронировать</a>
+          </div>
         </article>
 
       </section>
