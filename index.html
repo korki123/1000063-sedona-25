@@ -23,9 +23,9 @@
 
     <main class="container">
       <section class="main-intro">
+        <img src="img/main-foto.jpg" alt="Добро пожаловать в Седону">
       </section>
 
-      <section class="features">
         <section class="features-sedona">
           <div class="features-slogan">
             <h1>Седона — небольшой городок в Аризоне, заслуживающий большего!</h1>
@@ -59,7 +59,7 @@
 
           <section class="features-advantage">
             <h2 class="features-advantage-white">Там есть Мост дьявола</h2>
-            <span="features-advantage-white">— №2 —</span>
+            <span class="features-advantage-white">— №2 —</span>
             <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
             <img src="img/city2.jpg" width="800" height="256" alt="Мост дьявола">
           </section>
@@ -83,30 +83,31 @@
               </li>
             </ul>
           </section>
-        </section>
 
 
-      <div class="features-slogan">
+      <section class="features-slogan">
         <h2>Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-      </div>
+      </section>
 
       <section class="search-hotel">
         <h2 class="features-advantage-white">Поиск гостиницы в седоне</h2>
         <form class="search-data" action="index.html" method="post">
           <label class="search-data">Дата заезда:
-            <input id="date-in" type="text" name="" value="">
+            <input id="date-in" type="text" name="date-in" value="">
           </label>
-        <label class="search-data">Дата выезда:
-          <input id="date-out" type="text" name="" value="">
-        </label>
-        <label class="search-data">Взрослые:
-          <input id="mature" type="text" name="" value="">
-        </label>
-        <label class="search-data">Дети:
-          <input id="child" type="text" name="" value="">
-        </label>
-        <button class="button-search" type="button" name="search">Найти</button>
+          <label class="search-data">Дата выезда:
+            <input id="date-out" type="text" name="date-out" value="">
+          </label>
+          <label class="search-data">Взрослые:
+            <input id="mature" type="text" name="mature" value="">
+          </label>
+          <label class="search-data">Дети:
+            <input id="child" type="text" name="child" value="">
+          </label>
+        </form>
+
+        <button class="button-search" type="submit" name="search">Найти</button>
       </section>
     </main>
 
