@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
     <header class="main-header">
       <a class="logo-navigation">
-        <img src="img/logo.svg" width="140" height="71" alt="логотип">
+        <img src="img/logo.svg" width="140" height="71" alt="логотип Седония">
       </a>
 
       <nav class="navigation">
@@ -23,7 +26,7 @@
 
     <main class="container">
       <section class="main-intro">
-        <img src="img/welcome.svg" alt="Добро пожаловать в Седону">
+        <img src="img/welcome.svg" width="459" height="353" alt="Добро пожаловать в Седону">
       </section>
 
       <section class="features-sedona">
@@ -45,7 +48,7 @@
           <li class="features-leisure-item">
             <h2>Жильё</h2>
             <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-            <p> <img src="img/icon-home.svg" alt="иконка домика"> </p>
+            <p> <img src="img/icon-home.svg" alt="Иконка домика"> </p>
           </li>
           <li class="features-leisure-item">
             <h2>Еда</h2>
@@ -97,16 +100,16 @@
       <section class="search-hotel">
         <form class="search-data" action="index.html" method="post">
           <label class="search-data">Дата заезда:
-            <input id="date-in" type="text" name="date-in" value="">
+            <input type="text" name="date-in" value="">
           </label>
           <label class="search-data">Дата выезда:
-            <input id="date-out" type="text" name="date-out" value="">
+            <input type="text" name="date-out" value="">
           </label>
-          <label class="search-data">Взрослые:
-            <input id="mature" type="text" name="mature" value="">
+          <label class="search-data mature">Взрослые:
+            <input type="text" name="mature" value="">
           </label>
-          <label class="search-data">Дети:
-            <input id="child" type="text" name="child" value="">
+          <label class="search-data child">Дети:
+            <input type="text" name="child" value="">
           </label>
           <button class="button-search" type="submit" name="search">Найти</button>
         </form>
