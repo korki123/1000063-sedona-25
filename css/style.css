@@ -2,8 +2,9 @@ body {
   margin: 0;
 
   font-family: "PT Sans", Arial, sans-serif;
+  font-weight: normal;
   line-height: 21px;
-  color: #333;
+  color: # 000;
   text-align: center;
   text-transform: uppercase;
 }
@@ -12,25 +13,98 @@ a {
   text-decoration: none;
 }
 
+
 .navigation {
   font-size: 14px;
   font-weight: bold;
   line-height: 26px;
 }
 
-.site-navigation,
-.features-leisure-item,
+.main-navigation,
+.features-leisure-list,
 .footer-social {
   list-style: none;
 }
 
-.main-navigation a,
-.site-navigation a {
+.main-navigation a {
   color: #333;
 }
 
+.main-navigation a:hover,
+.main-navigation a:focus {
+  color: #81B3D2;
+}
+
+
 .main-intro {
-  background-image: url("img/background-photo.jpg");
+  background-image: url("../img/bg-photo.jpg");
   background-repeat: no-repeat;
   background-color: #81B3D2;
+}
+
+.features-sedona h1 {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.features-sedona p {
+  line-height: 26px;
+  color: #333;
+}
+
+.features-advantage {
+  background-color: #81B3D2;
+  color: #fff;
+}
+
+
+.features-advantage h2,
+.features-leisure h2 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.features-leisure p {
+  color: #333;
+}
+
+.features-interest h2 {
+  font-size: 30px;
+  line-height: 24px;
+}
+
+.features-interest p {
+  line-height: 24px;
+  color: #333;
+}
+
+.search-hotel a {
+  font-size: 21px;
+  color: white;
+  background-color: #766357;
+}
+
+.search-hotel a:hover {
+  background-color: #604E43;
+}
+
+
+.search-data {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.button-search {
+  background-color: #81B3D2;
+  color: white;
+}
+
+.button-search:hover {
+  background-color: #669EC0;
+}
+
+
+footer a {
+  color: #000;
 }
