@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="centred">
 
     <header class="main-header">
       <a class="logo-navigation">
@@ -34,68 +34,82 @@
           <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
       </section>
 
-      <section class="features-advantage">
-        <h2 class="features-advantage-white">Настоящий городок</h2>
-        <span class="features-advantage-white">— №1 —</span>
-        <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-        <img src="img/city1.jpg" width="800" height="256" alt="Настоящий городок">
-      </section>
+      <div class="features">
+        <section class="features-advantage">
+          <div class="features-point-1">
+            <h2 class="features-advantage-white">Настоящий городок</h2>
+            <span class="features-advantage-white">— №1 —</span>
+            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+            </div>
+          <img src="img/city1.jpg" width="800" height="256" alt="Настоящий городок">
+        </section>
 
-      <section class="features-leisure">
-        <ul class="features-leisure-list">
-          <li class="features-leisure-item">
-            <h2>Жильё</h2>
-            <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-            <img src="img/icon-home.svg" alt="Иконка домика"> 
-          </li>
-          <li class="features-leisure-item">
-            <h2>Еда</h2>
-            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-            <img src="img/icon-burger.svg" alt="Иконка бургера">
-          </li>
-          <li class="features-leisure-item">
-            <h2>Сувениры</h2>
-            <p>Не только китайского, но и местного производства!</p>
-            <img src="img/icon-souvenir.svg" alt="Иконка сувениры">
-          </li>
-        </ul>
-      </section>
+        <section class="features-leisure">
+          <ul class="features-leisure-list">
+            <li class="features-leisure-item">
+              <div class="features-icon">
+                <img src="img/icon-home.svg" alt="Иконка домика">
+              </div>
+              <h2>Жильё</h2>
+              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+            </li>
+            <li class="features-leisure-item">
+              <div class="features-icon">
+                <img src="img/icon-burger.svg" alt="Иконка бургера">
+              </div>
+              <h2>Еда</h2>
+              <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+            </li>
+            <li class="features-leisure-item">
+              <div class="features-icon">
+                <img src="img/icon-souvenir.svg" alt="Иконка сувениры">
+              </div>
+              <h2>Сувениры</h2>
+              <p>Не только китайского, но и местного производства!</p>
+            </li>
+          </ul>
+        </section>
 
-      <section class="features-advantage">
-        <h2 class="features-advantage-white">Там есть Мост дьявола</h2>
-        <span class="features-advantage-white">— №2 —</span>
-        <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-          <img src="img/city2.jpg" width="800" height="256" alt="Мост дьявола">
-      </section>
+        <section class="features-advantage">
+          <div class="features-point-2">
+            <h2 class="features-advantage-white">Там есть Мост дьявола</h2>
+            <span class="features-advantage-white">— №2 —</span>
+            <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          </div>
+            <img src="img/city2.jpg" width="800" height="256" alt="Мост дьявола">
+        </section>
 
-      <section class="features-leisure last">
-        <ul class="features-leisure-list">
-          <li class="features-leisure-item">
-            <h2>Небольшая площадь</h2>
-            <span>— №3 —</span>
-            <p>Все достопримечательности находятся очень близко</p>
-          </li>
-          <li class="features-leisure-item">
-            <h2>Красивая дорога</h2>
-            <span>— №4 —</span>
-            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-          </li>
-          <li class="features-leisure-item">
-            <h2>Мало туристов</h2>
-            <span>— №5 —</span>
-            <p>Большинство едет в гранд каньон и толпится там</p>
-          </li>
-        </ul>
-      </section>
+        <section class="features-leisure last">
+          <ul class="features-leisure-list">
+            <li class="features-leisure-item">
+              <h2>Небольшая площадь</h2>
+              <span>— №3 —</span>
+              <p>Все достопримечательности находятся очень близко</p>
+            </li>
+            <li class="features-leisure-item">
+              <h2>Красивая дорога</h2>
+              <span>— №4 —</span>
+              <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            </li>
+            <li class="features-leisure-item">
+              <h2>Мало туристов</h2>
+              <span>— №5 —</span>
+              <p>Большинство едет в гранд каньон и толпится там</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+
 
 
       <section class="features-interest">
         <h2>Заинтересовались?</h2>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <p>Укажите предполагаемые даты поездки, <br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
       </section>
 
       <section class="search-hotel">
-        <h2 class="features-advantage-white"><a href="#">Поиск гостиницы в седоне</a></h2>
+        <a href="#"><h2 class="features-advantage-white">Поиск гостиницы в седоне</h2></a>
         <form class="search-data" action="index.html" method="post">
           <label class="search-data">Дата заезда:
             <input type="text" name="date-in" value="" placeholder="ДД Месяц ГГГГ">
