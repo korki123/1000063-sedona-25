@@ -7,8 +7,6 @@ body {
   color: #000000;
   text-align: center;
   text-transform: uppercase;
-
-  width: 1200px;
 }
 
 .centred {
@@ -116,18 +114,18 @@ a {
   color: #ffffff;
 }
 
-.features-point-1,
-.features-point-2 {
+.features-point-left,
+.features-point-right {
   width: 400px;
   box-sizing: border-box;
   padding: 45px 60px ;
 }
 
-.features-point-1 {
+.features-point-left {
   float: left;
 }
 
-.features-point-2 {
+.features-point-right {
   float: right;
 }
 
@@ -152,9 +150,9 @@ a {
   display: flex;
 }
 
-.features-icon {
+/* .features-icon {
   margin-bottom: 30px;
-}
+} */
 
 .features-leisure-item {
   width: 400px;
