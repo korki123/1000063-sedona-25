@@ -67,6 +67,9 @@ a {
 
 .site-navigation-active {
   color: #766357;
+  padding: 15px 0;
+  width: 240px;
+  text-align: center;
 }
 
 .main-navigation a {
@@ -250,23 +253,39 @@ a {
 }
 
 
-/* ---------стилизую внутренюю--------- */
+/* -------------------------- стилизую внутренюю -------------------------- */
 
 
 .container-inner {
   text-align: left;
 }
 
-.search {
+ .search {
+
   background-image: url("../img/inner-background.jpg");
   background-repeat: no-repeat;
   background-color: #81B3D2;
   color: #ffffff;
+  font-size: 0;
+  line-height: 0;
+  box-sizing: border-box;
+  padding: 26px 72px 33px;
+}
+
+.search-conditions {
+  display: flex;
+}
+
+.searh-result {
+  width: 255px;
+  display: flex;
+  flex-direction: column;
 }
 
 .search-conditions h3 {
   font-size: 16px;
   font-weight: bold;
+  display: flex;
 }
 
 .search-sort ul {
