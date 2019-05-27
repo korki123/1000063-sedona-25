@@ -9,7 +9,6 @@ body {
   text-transform: uppercase;
 
   width: 1200px;
-  background-color: green;
 }
 
 .centred {
@@ -86,7 +85,7 @@ a {
   background-repeat: no-repeat;
   background-color: #81B3D2;
   width: 1200px;
-  padding: 75px 0 75px 0;
+  padding: 75px 0 74px 0;
 }
 
 .features-sedona {
@@ -94,14 +93,12 @@ a {
   padding-left: 340px;
   padding-right: 340px;
   padding-bottom: 50px;
-  background-color: red;
 }
 
 .features-sedona h1 {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
-  background-color: blue;
 }
 
 .features-sedona p {
@@ -132,6 +129,11 @@ a {
 
 .features-point-2 {
   float: right;
+}
+
+.features-foto {
+  font-size: : 0;
+  line-height: 0;
 }
 
 .features-advantage h2,
@@ -211,7 +213,6 @@ a {
 .main-footer {
   display: flex;
   justify-content: space-between;
-  vertical-align: middle;
   padding: 36px 0;
 }
 
@@ -226,17 +227,18 @@ a {
 }
 
 .footer-social {
+  width: 150px;
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .social-button {
   width: 46px;
-  padding-left: 3px;
-  padding-right: 3px;
   background-color: #81B3D2;
+  font-size: 0;
+  line-height: 0;
 }
 
 .social-button:hover {
@@ -244,7 +246,14 @@ a {
 }
 
 
-/* стилизую внутренюю */
+.map-sedona {
+  width: 1200px;
+  height: 473px;
+}
+
+
+/* ---------стилизую внутренюю--------- */
+
 
 .container-inner {
   text-align: left;
