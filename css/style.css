@@ -7,14 +7,6 @@ body {
   color: #000000;
   text-align: center;
   text-transform: uppercase;
-
-  width: 1200px;
-  background-color: green;
-}
-
-.centred {
-  width: 1200px;
-  margin: 0 auto;
 }
 
 /* Вспомогательный от Кекса */
@@ -44,15 +36,11 @@ a {
 }
 
 
-.main-header {
-  padding-bottom: -14px;
-}
-
 .navigation {
   font-size: 14px;
   font-weight: bold;
   line-height: 26px;
-  }
+}
 
 .main-navigation {
   margin: 0;
@@ -68,30 +56,12 @@ a {
   list-style: none;
 }
 
-.main-navigation {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  width: 1200px;
-}
-
-
 .site-navigation {
   color: #000000;
-<<<<<<< HEAD
   width: 239px;
   height: 56px;
   padding-top: 14px;
 
-=======
-  padding: 15px 0;
-  width: 240px;
-  text-align: center;
-}
-
-.site-navigation:nth-child(2) {
-  margin-right: 240px;
->>>>>>> 44e3bfc6252c2a69817ea5167b5522e6d48a52a4
 }
 
 .site-navigation:hover {
@@ -111,7 +81,6 @@ a {
   color: #81B3D2;
 }
 
-<<<<<<< HEAD
 .main-navigation li:nth-child(-n+2) {
   order: 0;
 }
@@ -125,29 +94,16 @@ a {
 }
 
 
-=======
->>>>>>> 44e3bfc6252c2a69817ea5167b5522e6d48a52a4
 .main-intro {
   background-image: url("../img/bg-photo.jpg");
   background-repeat: no-repeat;
   background-color: #81B3D2;
-  width: 1200px;
-  padding: 75px 0 75px 0;
-}
-
-.features-sedona {
-  padding-top: 63px;
-  padding-left: 340px;
-  padding-right: 340px;
-  padding-bottom: 50px;
-  background-color: red;
 }
 
 .features-sedona h1 {
   font-size: 21px;
   font-weight: bold;
   line-height: 26px;
-  background-color: blue;
 }
 
 .features-sedona p {
@@ -155,30 +111,11 @@ a {
   color: #333333;
 }
 
-.features {
-  display: flex;
-  flex-direction: column;
-}
-
 .features-advantage {
   background-color: #81B3D2;
   color: #ffffff;
 }
 
-.features-point-1,
-.features-point-2 {
-  width: 400px;
-  box-sizing: border-box;
-  padding: 45px 60px ;
-}
-
-.features-point-1 {
-  float: left;
-}
-
-.features-point-2 {
-  float: right;
-}
 
 .features-advantage h2,
 .features-leisure h2 {
@@ -190,27 +127,9 @@ a {
   color: #333333;
 }
 
-.features-leisure-list {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.features-icon {
-  margin-bottom: 30px;
-}
-
-.features-leisure-item {
-  width: 400px;
-  padding: 60px 45px 85px 45px;
-}
-
 .features-interest h2 {
   font-size: 30px;
   line-height: 24px;
-  padding-top: 56px;
-  padding-left: 400px;
-  padding-right: 400px;
 }
 
 .features-interest p {
@@ -218,27 +137,16 @@ a {
   color: #333333;
 }
 
-.last {
-  background-color: #eeeeee;
-}
-
-.search-hotel{
-  width: 568px;
-  margin: 0 auto;
-}
-
-
-.search-hotel h2 {
+.search-hotel a {
   font-size: 21px;
   color: white;
   background-color: #766357;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
-.search-hotel h2:hover {
+.search-hotel a:hover {
   background-color: #604E43;
 }
+
 
 .search-data {
   font-size: 14px;
@@ -254,34 +162,12 @@ a {
   background-color: #669EC0;
 }
 
-.main-footer {
-  display: flex;
-  justify-content: space-between;
-  vertical-align: middle;
-  padding: 36px 0;
-}
-
-.footer-link,
-.footer-social,
-.footer-copyright {
-  width: 400px;
-}
 
 .main-footer a {
   color: #000000;
 }
 
-.footer-social {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-}
-
 .social-button {
-  width: 46px;
-  padding-left: 3px;
-  padding-right: 3px;
   background-color: #81B3D2;
 }
 
@@ -371,7 +257,7 @@ a {
 }
 
 .hotel a {
-  /* font-size: 14px; */
+  font-size: 14px;
   font-weight: bold;
   color: #000000;
 }
