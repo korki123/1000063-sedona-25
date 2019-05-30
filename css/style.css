@@ -83,15 +83,14 @@ img {
   color: #000000;
 }
 
-.main-navigation a:active {
-  color: #333333;
-}
 
-.main-navigation a:hover,
-.main-navigation a:focus {
+.main-navigation a:hover {
   color: #81B3D2;
 }
 
+.main-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
 
 .site-navigation,
 .site-navigation-current {
@@ -104,7 +103,9 @@ img {
   margin-right: 240px;
 }
 
-.site-navigation-current a{
+.site-navigation-current a,
+.site-navigation-current a:hover,
+.site-navigation-current a:active {
   color: #766357;
 }
 
@@ -346,6 +347,7 @@ img {
 
 .search-request-choice {
   line-height: 25px;
+  font-size: 14px;
 }
 
 .search-conditions h3 {
@@ -362,9 +364,6 @@ img {
   color: #000000;
 }
 
-.search-request-choice {
-  font-size: 14px;
-}
 
 .search-price {
   width: 320px;
@@ -394,6 +393,22 @@ img {
   font-size: 21px;
   line-height: 26px;
 }
+
+
+
+/* .hotel h1 {
+  padding-top: 24px;
+  font-weight: bold;
+  color: #000000;
+} */
+
+/* .hotel h1 {
+  margin: 0;
+  padding-top: 24px;
+  font-size: 21px;
+  line-height: 26px;
+} */
+
 
 .search-sort {
   font-size: 12px;
@@ -439,6 +454,20 @@ h3.search-find {
 
 .search-range li {
   margin: 0 6px;
+}
+
+.search-range-current path,
+.search-range-current path:hover,
+.search-range-current path:active  {
+  fill: #81B3D2;
+}
+
+.search-range-passive path:hover {
+  fill: #000000;
+}
+
+.search-range-passive path:active {
+  fill: #81B3D2;
 }
 
 
@@ -511,13 +540,22 @@ article.hotel {
   border-bottom: 1px dotted #81B3D2;
 }
 
-.search-select-current a {
+.search-select-passive a:hover {
+  color: #81B3D2;
+  border-bottom: 1px dotted #81B3D2;
+}
+
+.search-select-passive a:active {
+  color: #000000;
+  border-bottom: 0;
+}
+
+.search-select-current a,
+.search-select-current a:hover,
+.search-select-current a:active {
   color: #81B3D2;
 }
 
-.search-select-current a:hover {
-  border-bottom: 1px dotted #81B3D2;
-}
 
 .hotel-price-preview {
   padding-top: 7px;
@@ -530,15 +568,8 @@ article.hotel {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.hotel h1 {
-  padding-top: 24px;
-  font-weight: bold;
-  color: #000000;
 
-  /*   background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 45, 82); */
 
-}
 
 .button-detail {
   margin: 0;
