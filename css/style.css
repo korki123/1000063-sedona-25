@@ -352,6 +352,13 @@ img {
   padding-top: 10px;
 }
 
+.footer-copyright path:hover {
+  fill: rgba(129, 179, 210, 1);
+}
+
+.footer-copyright path:active {
+  fill: rgba(189, 187, 188, 1);
+}
 
 
 /* -------------------------- стилизую внутренюю -------------------------- */
