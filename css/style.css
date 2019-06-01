@@ -267,6 +267,29 @@ img {
   position: relative;
 }
 
+
+.map {
+  font-size: 0;
+  line-height: 0;
+  margin-bottom: -120px;
+}
+
+.map-sedona {
+  width: 1200px;
+  height: 595px;
+}
+
+.main-footer-index {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 0;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  z-index: 5;
+}
+
+
 .main-footer {
   display: flex;
   justify-content: space-between;
@@ -297,7 +320,9 @@ img {
   padding-bottom: 13px;
 }
 
-.main-footer a {
+.main-footer a,
+.footer-link a,
+.footer-copyright a {
   color: #000000;
 }
 
@@ -324,19 +349,12 @@ img {
   background-color: #669EC0;
 }
 
-.social-button path:active {
+.social-button svg {
+  fill: #ffffff;
+}
+
+.social-button svg:active {
   opacity: 0.3;
-}
-
-
-.map {
-  font-size: 0;
-  line-height: 0;
-}
-
-.map-sedona {
-  width: 1200px;
-  height: 595px;
 }
 
 
@@ -352,12 +370,16 @@ img {
   padding-top: 10px;
 }
 
-.footer-copyright path:hover {
-  fill: rgba(129, 179, 210, 1);
+.footer-copyright svg {
+  fill: #000000;
 }
 
-.footer-copyright path:active {
-  fill: rgba(189, 187, 188, 1);
+.footer-copyright a svg:hover {
+  fill: #81b3d2;
+}
+
+.footer-copyright a svg:active {
+  fill: #bdbbbc;
 }
 
 
@@ -626,10 +648,9 @@ h3.search-find {
   background-color: #81b3d2;
   text-align: center;
   padding-top: 2px;
-  padding-bottom: 4px;}
-
-.button-detail a {
+  padding-bottom: 4px;
   color: #ffffff;
+  font-weight: bold;
 }
 
 .button-detail:hover {
