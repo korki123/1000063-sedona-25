@@ -247,6 +247,8 @@ img {
   color: rgba(255, 255, 255, 0.3);
 }
 
+
+
 .search-data {
   font-size: 14px;
   font-weight: bold;
@@ -353,7 +355,7 @@ img {
   fill: #ffffff;
 }
 
-.social-button svg:active {
+.social-button:active svg {
   opacity: 0.3;
 }
 
@@ -374,11 +376,11 @@ img {
   fill: #000000;
 }
 
-.footer-copyright svg:hover {
+.footer-copyright:hover svg {
   fill: #81b3d2;
 }
 
-.footer-copyright svg:active {
+.footer-copyright:active svg {
   fill: #bdbbbc;
 }
 
