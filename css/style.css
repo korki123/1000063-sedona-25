@@ -299,7 +299,7 @@ img {
 }
 
 .footer-index .main-footer {
-  position:absolute;
+  position: absolute;
   bottom: 0;
   left: 0;
 }
@@ -374,11 +374,11 @@ img {
   fill: #000000;
 }
 
-.footer-copyright a svg:hover {
+.footer-copyright svg:hover {
   fill: #81b3d2;
 }
 
-.footer-copyright a svg:active {
+.footer-copyright svg:active {
   fill: #bdbbbc;
 }
 
@@ -519,17 +519,24 @@ h3.search-find {
   margin: 0 6px;
 }
 
-.search-range-current path,
-.search-range-current path:hover,
-.search-range-current path:active  {
+.search-range-current svg  {
   fill: #81B3D2;
 }
 
-.search-range-passive path:hover {
+.search-range-current svg:hover,
+.search-range-current svg:active  {
+  fill: #81B3D2;
+}
+
+.search-range-passive svg {
+  fill: #CACACA;
+}
+
+.search-range-passive svg:hover {
   fill: #000000;
 }
 
-.search-range-passive path:active {
+.search-range-passive svg:active {
   fill: #81B3D2;
 }
 
