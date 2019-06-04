@@ -171,8 +171,8 @@ img {
 
 .features-point-right {
   float: right;
-  padding-top: 43px;
-  padding-bottom: 46px;
+  padding-top: 45px;
+  padding-bottom: 0;
 }
 
 .features-foto {
@@ -255,6 +255,13 @@ img {
 }
 
 form.search {
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  width: 568px;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  /* align-items: flex-start; */
   position: absolute;
   padding: 55px;
   background-color: #ffffff;
@@ -265,8 +272,29 @@ form.search {
 
 .search-data {
   font-size: 14px;
+  line-height: 26px;
   font-weight: bold;
+  padding-bottom: 29px;
 }
+.search-data input {
+  width: 338px;
+  margin: 0;
+  /* margin-left: auto; */
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  color: #000000;
+  border-style: none;
+}
+
+
 
 .button-search {
   background-color: #81B3D2;
