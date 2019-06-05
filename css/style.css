@@ -7,7 +7,6 @@ body {
   color: #000000;
   text-align: center;
   text-transform: uppercase;
-
   background-color: #F2F2F2;
 }
 
@@ -555,6 +554,22 @@ form.search {
 .search-conditions {
   display: flex;
 }
+
+/* ----------------------------------------checkbox---------------------------------------- */
+/* .search-request-choice input{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0)
+} */
+
+/* .icon-check {
+  width: 27px;
+  height: 23px;
+  margin-left: -40px;
+  background-color: red; */
+/* } */
 
 .search-result {
   width: 255px;
