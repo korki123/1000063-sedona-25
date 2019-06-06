@@ -33,18 +33,18 @@
           <div class="search-result">
             <h3 class="features-advantage-white">Инфраструктура:</h3>
             <label class="search-request-choice">
-              <input type="checkbox" name="structure" value="pool" checked>
-              <!-- <span class="icon-check"></span> -->
+              <input class="choice-check" type="checkbox" name="structure" value="pool" checked>
+              <span class="icon-check"></span>
               Бассейн
             </label>
             <label class="search-request-choice">
-              <input type="checkbox" name="structure" value="park">
-              <!-- <span class="icon-check"></span> -->
+              <input class="choice-check" type="checkbox" name="structure" value="park">
+              <span class="icon-check"></span>
               Парковка
             </label>
             <label class="search-request-choice">
-              <input type="checkbox" name="structure" value="wi-fi">
-              <!-- <span class="icon-check"></span> -->
+              <input class="choice-check" type="checkbox" name="structure" value="wi-fi">
+              <span class="icon-check"></span>
               Wi-Fi
             </label>
           </div>
@@ -52,26 +52,41 @@
           <div class="search-result">
             <h3 class="features-advantage-white">Тип жилья:</h3>
             <label class="search-request-choice">
-              <input type="checkbox" name="structure" value="hotel" checked>
+              <input class="choice-check" type="checkbox" name="structure" value="hotel" checked>
               <span class="icon-check"></span>Гостиница
             </label>
             <label class="search-request-choice">
-              <input type="checkbox" name="structure" value="motel" checked>
+              <input class="choice-check" type="checkbox" name="structure" value="motel" checked>
               <span class="icon-check"></span>Мотель
             </label>
             <label class="search-request-choice">
-              <input type="checkbox" name="structure" value="appartment" checked>
+              <input class="choice-check" type="checkbox" name="structure" value="appartment" checked>
               <span class="icon-check"></span>Апартаменты
             </label>
           </div>
 
           <div class="search-price">
             <h3 class="features-advantage-white">Стоимость в сутки (Р):</h3>
-            <p class="features-advantage-white">от 0 до 3000</p>
-            <label>
-              <input type="range" min="0" max="3000" step="100" name="" value="0">
-            </label>
-              <button type="submit" name="button">Показать</button>
+            <div class="price-range">
+              <label class="min">от
+                <input type="text" value="0">
+              </label>
+              <label class="max">до
+                <input type="text" value="3000">
+              </label>
+              <div class="slider">
+                <div class="line">
+                  <div class="line-inside">
+                  </div>
+                </div>
+                <div class="slider-min">
+                </div>
+                <div class="slider-max">
+                </div>
+              </div>
+              <button class="show" type="submit" name="button">Показать</button>
+            </div>
+
           </div>
         </form>
       </section>
@@ -120,8 +135,12 @@
               </div>
             </div>
           </div>
-          <div class="rating">
-            <p>Рейтинг: 8,5</p>
+          <div class="rating-wrapper">
+            <div class="four-stars stars">
+            </div>
+            <div class="rating">
+              <p>Рейтинг: 8,5</p>
+            </div>
           </div>
         </article>
 
@@ -140,8 +159,12 @@
               </div>
             </div>
           </div>
-          <div class="rating">
-            <p>Рейтинг: 8,5</p>
+          <div class="rating-wrapper">
+            <div class="three-stars stars">
+            </div>
+            <div class="rating">
+              <p>Рейтинг: 8,9</p>
+            </div>
           </div>
         </article>
 
@@ -160,8 +183,12 @@
               </div>
             </div>
           </div>
-          <div class="rating">
-            <p>Рейтинг: 8,5</p>
+          <div class="rating-wrapper">
+            <div class="two-stars stars">
+            </div>
+            <div class="rating">
+              <p>Рейтинг: 9,2</p>
+            </div>
           </div>
         </article>
 
