@@ -127,10 +127,10 @@ img {
 }
 
 .features-sedona {
-  padding-top: 63px;
+  padding-top: 47px;
   padding-left: 320px;
   padding-right: 320px;
-  padding-bottom: 50px;
+  padding-bottom: 31px;
 }
 
 .features-sedona h1 {
@@ -143,7 +143,8 @@ img {
 
 .features-sedona p {
   margin: 0;
-  padding: 16px 0;
+  padding: 14px 0 18px;
+  font-size: 14px;
   line-height: 26px;
   color: #333333;
 }
@@ -162,7 +163,7 @@ img {
 .features-point-right {
   width: 400px;
   box-sizing: border-box;
-  padding: 45px 60px ;
+  padding: 45px 40px ;
 }
 
 .features-point-left {
@@ -183,31 +184,54 @@ img {
 .features-advantage h2,
 .features-leisure h2 {
   margin: 0;
-  padding: 17px 0;
+  padding: 3px 55px 23px;
   font-size: 21px;
   font-weight: bold;
 }
 
-.features-leisure p {
-  color: #333333;
-  margin: 0;
-  padding: 16px 0;
+.features-leisure {
+  font-size: 0;
+  line-height: 0;
 }
 
-.features-leisure-list {
+.features-leisure h2 {
+padding-top: 40px;
+}
+
+.features-advantage span {
+
+}
+
+.features-advantage p,
+.features-leisure p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+
   margin: 0;
-  padding: 0;
+  padding: 21px 9px 0;
+}
+
+.features-leisure p {
+  color: #333333;
+
+  padding: 10px 50px 0;
+}
+
+.features-leisure-list,
+.features-leisure-last {
+  margin: 0;
+  padding: 60px 0 80px 0;
   display: flex;
 }
 
 
 .features-leisure-item {
   width: 400px;
-  padding: 60px 45px 85px 45px;
 }
 
 .features-interest {
-  padding: 56px 350px 35px;
+  padding: 31px 350px 49px;
 }
 
 .features-interest h2 {
@@ -219,12 +243,31 @@ img {
 
 .features-interest p {
   margin: 0;
+  font-size: 14px;
   line-height: 24px;
   color: #333333;
 }
 
 .last {
   background-color: #eeeeee;
+}
+
+.features-leisure-last {
+  padding: 47px 0 58px;
+}
+
+.last h2 {
+  padding: 0px 130px 23px;
+  line-height: 21px;
+}
+
+.last span {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.last p {
+  padding: 22px 69px 0;
 }
 
 .search-hotel{
@@ -272,7 +315,7 @@ form.search {
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
-  padding-bottom: 29px;
+  padding-bottom: 30px;
 }
 .search input {
   width: 338px;
@@ -280,7 +323,7 @@ form.search {
   padding-top: 6px;
   padding-bottom: 4px;
   padding-left: 12px;
-  margin-bottom: 29px;
+  margin-bottom: 30px;
 
   font-size: 14px;
   line-height: 26px;
@@ -320,7 +363,7 @@ form.search {
   justify-content: space-between;
   align-items: center;
   position: relative;
-
+  padding-bottom: 25px;
 }
 
 .persons-mature {
@@ -400,6 +443,7 @@ form.search {
 
 .button-search {
   background-color: #81B3D2;
+  font-size: 21px;
   font-weight: bold;
   color: white;
   height: 58px;
@@ -516,7 +560,7 @@ form.search {
 }
 
 .footer-by {
-  width: 110px;
+  width: 85px;
   padding-top: 10px;
 }
 
@@ -1035,7 +1079,7 @@ background-repeat: space;
   background-color: #604E43;
 }
 
-.button-detail a:active,
-.button-reserve a:active {
+.button-detail:active,
+.button-reserve:active {
   color: rgba(225, 225, 225, 0.3);
 }
