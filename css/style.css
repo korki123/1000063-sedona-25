@@ -939,15 +939,26 @@ h3.search-find {
 
 
 .find-result {
-  padding: 0 72px;
   display: flex;
   flex-direction: column;
 }
 
 .hotel {
   display: flex;
-  padding: 29px 0;
+  padding: 29px 72px;
+  position: relative;
 }
+
+/* .hotel::after {
+  content: "";
+  width: 1200px;
+  height: 1px;
+  color: #e5e5e5;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+} */
 
 .hotel img {
   width: 135px;
