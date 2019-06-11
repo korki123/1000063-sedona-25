@@ -6,6 +6,7 @@
   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -114,7 +115,7 @@
       <section class="search-hotel">
         <a><h2 class="features-white">Поиск гостиницы в седоне</h2></a>
 
-        <form class="search" action="index.html" method="post">
+        <form class="search search-show" action="index.html" method="post">
           <label for="arrival" class="search-data">Дата заезда:</label>
           <input id="arrival" class="select-date" type="date" name="date-in" value="" placeholder="ДД Месяц ГГГГ">
 
@@ -185,22 +186,7 @@
     </footer>
   </section>
 
-  <script>
-
-    var link = document.querySelector(".search-hotel a");
-    var hide = document.querySelector("form.search");
-
-    link.addEventListener("click", function (evt) {
-    evt.preventDefault();
-    hide.classList.toggle("search-hide");
-
-
-
-    });
-
-
-  </script>
-
+  <script src="js/script.js"></script>
 </body>
 
 
