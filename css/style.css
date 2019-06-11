@@ -363,6 +363,10 @@ form.search-hide {
   animation-duration: 2s;
 }
 
+/* .hidden {
+  display: none;
+} */
+
 form.search-show {
   animation-name: show;
   animation-duration: 2s;
@@ -629,11 +633,13 @@ form.search-show {
   display: flex;
   justify-content: center;
   padding-top: 2px;
+  padding-right: 5px;
 }
 
 .footer-by {
   width: 85px;
   padding-top: 10px;
+  padding-right: 4px;
 }
 
 .footer-copyright svg {
@@ -774,7 +780,7 @@ form.search-show {
 
 .price-range .min,
 .price-range .max {
-  width: 90px;
+  width: 82px;
   padding-left: 65px;
 
 }
@@ -848,7 +854,7 @@ form.search-show {
 .show {
   display: block;
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0 83px;
   margin-top: 32px;
   padding: 6px 35px;
 
@@ -1017,7 +1023,7 @@ h3.search-find {
 
 .hotel {
   display: flex;
-  padding: 29px 72px;
+  padding: 27px 72px 31px;
   position: relative;
 }
 
@@ -1054,7 +1060,7 @@ h3.search-find {
 
 .hotel h1 {
  margin: 0;
- padding-bottom: 5px;
+ padding-bottom: 6px;
 }
 
 
