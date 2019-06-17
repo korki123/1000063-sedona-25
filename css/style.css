@@ -51,7 +51,7 @@ img {
   0% {
     transform: rotate(0deg) scale(1);
     opacity: 1;
-  }
+}
 
   /* 50% {
     transform: rotate(90deg) scale(0.75);
@@ -62,7 +62,6 @@ img {
     transform: rotate(360deg) scale(0);
     opacity: 0;
   }
-
 
 }
 
@@ -80,25 +79,20 @@ img {
 
 }
 
-
-
 /* -------------------------------- Анимация окончание -------------------------------- */
-
-
 
 /* -------------------------------- начало стилизации -------------------------------- */
 
 .main-header {
   position: relative;
   background-color: #ffffff;
-
 }
 
 /* .navigation {
   font-size: 14px;
   font-weight: bold;
   line-height: 26px;
-  } */
+} */
 
 .logo-navigation {
   display: block;
@@ -236,12 +230,12 @@ img {
 }
 
 .features-leisure h2 {
-padding-top: 40px;
+  padding-top: 40px;
 }
 
-.features-advantage span {
+/* .features-advantage span {
 
-}
+} */
 
 .features-advantage p,
 .features-leisure p {
@@ -267,7 +261,6 @@ padding-top: 40px;
   flex-wrap: wrap;
 }
 
-
 .features-leisure-item {
   width: 400px;
 }
@@ -280,7 +273,6 @@ padding-top: 40px;
   margin: 0;
   font-size: 30px;
   line-height: 78px;
-
 }
 
 .features-interest p {
@@ -380,7 +372,6 @@ form.search-show {
   padding-bottom: 30px;
 
   position: relative;
-
 }
 
 .icon-calend {
@@ -394,7 +385,6 @@ form.search-show {
 
   background-color: transparent;
   fill: rgba(169, 169, 169, 1.0);
-
 }
 
 .icon-calend:hover svg {
@@ -535,8 +525,6 @@ form.search-show {
   background-color: #81B3D2;
 }
 
-
-
 .persons-child {
   width: 179px;
 }
@@ -569,7 +557,6 @@ form.search-show {
   position: relative;
 }
 
-
 .map {
   font-size: 0;
   line-height: 0;
@@ -592,7 +579,6 @@ form.search-show {
   z-index: 5;
 }
 
-
 .main-footer {
   display: flex;
   justify-content: space-between;
@@ -607,7 +593,7 @@ form.search-show {
   left: 0;
 }
 
-/* .footer-link, */
+.footer-link,
 .footer-social,
 .footer-copyright {
   margin: 0;
@@ -615,16 +601,16 @@ form.search-show {
   padding: 0;
 }
 
-/* .footer-link {
+.footer-link {
   font-size: 21px;
   line-height: 26px;
   font-weight: bold;
   padding-top: 9px;
   padding-bottom: 13px;
-} */
+}
 
 .main-footer a,
-/* .footer-link a, */
+.footer-link a,
 .footer-copyright a {
   color: #000000;
 }
@@ -633,7 +619,6 @@ form.search-show {
   width: 400px;
   padding: 0;
   margin: 0;
-  margin-left: 400px;
   display: flex;
   justify-content: center;
 }
@@ -664,8 +649,6 @@ form.search-show {
 .social-button:active svg {
   opacity: 0.3;
 }
-
-
 
 .footer-copyright a{
   display: flex;
@@ -750,33 +733,32 @@ form.search-show {
   background-repeat: no-repeat;
  }
 
- .choice-check:checked + .icon-check {
+.choice-check:checked + .icon-check {
    position: absolute;
    width: 27px;
    height: 23px;
    margin-left: -40px;
    background-image: url(../img/checkbox-on.svg);
    background-repeat: no-repeat;
-  }
+}
 
-  .choice-check:disabled + .icon-check {
-    position: absolute;
-    width: 27px;
-    height: 23px;
-    margin-left: -40px;
-    background-image: url(../img/checkbox-dis-off.svg);
-    background-repeat: no-repeat;
-   }
+.choice-check:disabled + .icon-check {
+  position: absolute;
+  width: 27px;
+  height: 23px;
+  margin-left: -40px;
+  background-image: url(../img/checkbox-dis-off.svg);
+  background-repeat: no-repeat;
+}
 
-   .choice-check:checked:disabled + .icon-check {
-     position: absolute;
-     width: 27px;
-     height: 23px;
-     margin-left: -40px;
-     background-image: url(../img/checkbox-dis-on.svg);
-     background-repeat: no-repeat;
-    }
-
+.choice-check:checked:disabled + .icon-check {
+   position: absolute;
+   width: 27px;
+   height: 23px;
+   margin-left: -40px;
+   background-image: url(../img/checkbox-dis-on.svg);
+   background-repeat: no-repeat;
+ }
 
 
  /* ----------------------------------------checkbox end---------------------------------------- */
@@ -832,13 +814,10 @@ form.search-show {
   border: none;
 }
 
-
 .slider {
   padding-top: 16px;
   position: relative;
   cursor: pointer;
-
-
 }
 
 .slider .line {
@@ -879,15 +858,10 @@ form.search-show {
   margin-top: -2px;
 }
 
-
 .slider-min:hover::after,
 .slider-max:hover::before {
   transform: scale(1.1);
 }
-
-
-
-
 
 .show {
   display: block;
@@ -906,7 +880,6 @@ form.search-show {
   text-align: center;
   background-color: transparent;
   border: 2px solid #ffffff;
-
 }
 /* ----------------------------------------price range end---------------------------------------- */
 
@@ -938,7 +911,6 @@ form.search-show {
 .search-sort a {
   color: #000000;
 }
-
 
 .search-price {
   width: 318px;
@@ -979,8 +951,6 @@ form.search-show {
 .search-find a:active {
   color: rgba(0, 0, 0, 0.3);
 }
-
-
 
 .search-sort {
   font-size: 12px;
@@ -1049,7 +1019,6 @@ h3.search-find {
   fill: #81B3D2;
 }
 
-
 .find-result {
   display: flex;
   flex-direction: column;
@@ -1061,13 +1030,12 @@ h3.search-find {
   position: relative;
 }
 
-
 .hotel img {
   width: 135px;
   height: 90px;
   background-color: #81B3D2;
   align-self: center;
-  }
+}
 
 .hotel-wrapper,
 .hotel-type,
@@ -1113,7 +1081,6 @@ h3.search-find {
   align-items: flex-end;
 
   margin-left: auto;
-
 }
 
 .rating {
@@ -1121,7 +1088,6 @@ h3.search-find {
   /* padding-top: 47px; */
   /* margin-left: auto;
   margin-top: auto; */
-
 }
 
 .rating p {
@@ -1147,9 +1113,9 @@ h3.search-find {
 
 .stars {
   height: 17px;
-background-image: url(../img/star.svg);
-background-repeat: space;
-  }
+  background-image: url(../img/star.svg);
+  background-repeat: space;
+}
 
 
 .search-select-passive a {
@@ -1172,7 +1138,6 @@ background-repeat: space;
 .search-select-current a:active {
   color: #81B3D2;
 }
-
 
 .hotel-price-preview {
   padding-bottom: 12px;
