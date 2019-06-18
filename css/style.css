@@ -528,7 +528,7 @@ form.search-show {
   right: 0;
 
   border: 0;
-  outline: none;
+  /* outline: none; */
 
   background-color: transparent;
 
@@ -606,7 +606,7 @@ form.search-show {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  outline: none;
+  /* outline: none; */
   border-width: 0;
 }
 
